@@ -22,6 +22,7 @@ public class RegistrationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
+        database = new DatabaseHelper(this, "app");
     }
 
     public void toLogin(View view) {

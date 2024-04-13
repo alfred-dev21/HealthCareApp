@@ -29,7 +29,7 @@
         android:id="@+id/registerLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register"
+        android:text="@string/register_text"
         android:textColor="@color/purple_200"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -42,7 +42,7 @@
     <EditText
         android:id="@+id/usernameInput"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
         android:layout_marginBottom="480dp"
         android:background="@drawable/rounded_corner"
@@ -67,7 +67,7 @@
     <EditText
         android:id="@+id/EmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
         android:layout_marginBottom="388dp"
         android:background="@drawable/rounded_corner"
@@ -92,7 +92,7 @@
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
         android:background="@drawable/rounded_corner"
         android:drawableLeft="@drawable/password"
@@ -116,7 +116,7 @@
     <EditText
         android:id="@+id/editTextTextConfirmPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
         android:layout_marginBottom="264dp"
         android:background="@drawable/rounded_corner"
