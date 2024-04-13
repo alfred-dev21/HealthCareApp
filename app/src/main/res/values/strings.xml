@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HealthCareApp</string>
+    <string name="healthcare_24_hours">HealthCare 24-Hours</string>
+    <string name="login_label">Login</string>
+    <string name="email_input">Email</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="agilemobileapparchitects">\@AgileMobileAppArchitects</string>
 </resources>
