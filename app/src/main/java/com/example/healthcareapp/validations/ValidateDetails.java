@@ -73,7 +73,7 @@ public class ValidateDetails {
     public boolean isValidEmail(){
         Pattern pattern = Pattern.compile(Email_REGEX);
         Matcher matcher = pattern.matcher(email);
-        return matcher.matches();
+        return !matcher.matches();
     }
 
     public String getUsername() {

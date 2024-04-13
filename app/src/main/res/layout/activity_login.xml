@@ -113,7 +113,7 @@
         android:id="@+id/register_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register"
+        android:text="@string/register_text"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/purple_700"
         android:textSize="20sp"
