@@ -82,7 +82,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("Create table userDetails(username text not null, email text not null, password text not null, primary key (email))");
-        db.execSQL("Insert into userDetails(name, email, password) values ('alfred','alfred@gmail.com', 'alfred@12')");
+        db.execSQL("Insert into userDetails(username, email, password) values ('alfred','alfred@gmail.com', 'alfred@12')");
     }
 
     public SQLiteDatabase getDB(){

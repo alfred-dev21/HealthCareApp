@@ -52,11 +52,19 @@ public class RegistrationActivity extends AppCompatActivity {
         );
 
         boolean valid = validateDetails.validate();
-        if (checkBox.isChecked() && valid){
+        if (valid){
             Toast.makeText(this, "Account successfully registered.", Toast.LENGTH_SHORT).show();
             Uname.setText(""); mail.setText("");
             pass1.setText(""); pass2.setText("");
             checkBox.setChecked(false);
+
+            doInsert();
         }
     }
+
+    public void doInsert(){
+        String[] values = {username, email, password1};
+        database.doUpdate("INSERT INTO userDetails (username, email, password) VALUES (?,?,?)", values);
+    }
+
 }
