@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        database = new DatabaseHelper(this, "app");
     }
 
     public void toRegistration(View view) {
@@ -30,9 +31,9 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void retrieveData(View view){
-        EditText inputEmail = findViewById(R.id.EmailAddress);
-        EditText inputPassword = findViewById(R.id.editTextTextPassword);
+    public void retrieveLoginData(View view){
+        EditText inputEmail = findViewById(R.id.EmailLogin);
+        EditText inputPassword = findViewById(R.id.passLogin);
 
         email = inputEmail.getText().toString();
         password = inputPassword.getText().toString();

@@ -44,7 +44,7 @@
         app:layout_constraintVertical_bias="0.1" />
 
     <EditText
-        android:id="@+id/EmailAddress"
+        android:id="@+id/EmailLogin"
         android:layout_width="match_parent"
         android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
@@ -69,7 +69,7 @@
 
     <!--    EditText for Password section-->
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passLogin"
         android:layout_width="match_parent"
         android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/EmailLogin"
         app:layout_constraintVertical_bias="0.123" />
 
 <!--    question label-->
@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/SignInbutton"
         app:layout_constraintVertical_bias="0.222" />
 
     <!--    Link to register -->
@@ -141,7 +141,7 @@
         app:layout_constraintVertical_bias="0.949" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SignInbutton"
         style="@style/Widget.Material3.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -149,11 +149,11 @@
         android:text="@string/sign_in"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:onClick="retrieveData"
+        android:onClick="retrieveLoginData"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.575"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/passLogin"
         app:layout_constraintVertical_bias="0.165" />
 </androidx.constraintlayout.widget.ConstraintLayout>

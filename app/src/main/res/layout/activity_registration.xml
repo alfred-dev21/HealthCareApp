@@ -46,7 +46,7 @@
         android:layout_marginHorizontal="50sp"
         android:layout_marginBottom="480dp"
         android:background="@drawable/rounded_corner"
-        android:drawableLeft="@drawable/username"
+        android:drawableLeft="@drawable/username_white"
         android:drawablePadding="20sp"
         android:ems="10"
         android:hint="Username"
@@ -71,7 +71,7 @@
         android:layout_marginHorizontal="50sp"
         android:layout_marginBottom="388dp"
         android:background="@drawable/rounded_corner"
-        android:drawableLeft="@drawable/email"
+        android:drawableLeft="@drawable/email_white"
         android:drawablePadding="20sp"
         android:ems="10"
         android:hint="@string/email_input"
@@ -95,7 +95,7 @@
         android:layout_height="48sp"
         android:layout_marginHorizontal="50sp"
         android:background="@drawable/rounded_corner"
-        android:drawableLeft="@drawable/password"
+        android:drawableLeft="@drawable/white_shield"
         android:drawablePadding="20sp"
         android:ems="10"
         android:hint="@string/password_hint"
@@ -120,7 +120,7 @@
         android:layout_marginHorizontal="50sp"
         android:layout_marginBottom="264dp"
         android:background="@drawable/rounded_corner"
-        android:drawableLeft="@drawable/password"
+        android:drawableLeft="@drawable/white_shield"
         android:drawablePadding="20sp"
         android:ems="10"
         android:hint="@string/confirm_password"
@@ -150,7 +150,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterButton"
         app:layout_constraintVertical_bias="0.222" />
 
     <!--    Link to login -->
@@ -186,7 +186,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/RegisterButton"
         style="@style/Widget.Material3.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -207,7 +207,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/terms_and_conditions"
-        android:textColor="@color/white"
+        android:textColor="#FF9800"
         android:textSize="16sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="@+id/textView5"
