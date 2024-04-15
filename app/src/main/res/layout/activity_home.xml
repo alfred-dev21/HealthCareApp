@@ -21,7 +21,6 @@
             android:layout_height="50sp"
             android:id="@+id/toolbar"
             app:titleTextColor="@color/purple_700"
-            dra
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             />
