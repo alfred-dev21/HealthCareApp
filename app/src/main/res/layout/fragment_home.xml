@@ -162,14 +162,14 @@
                     android:layout_marginHorizontal="25sp"
                     android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/lab_test" />
+                    android:src="@drawable/appointment" />
 
                 <TextView
                     android:id="@+id/aLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:text="Search"
+                    android:text="Calender"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -202,7 +202,7 @@
                     android:layout_marginHorizontal="35sp"
                     android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/lab_test" />
+                    android:src="@drawable/chat" />
 
                 <TextView
                     android:id="@+id/bookLabel"
@@ -242,14 +242,14 @@
                     android:layout_marginHorizontal="25sp"
                     android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/lab_test" />
+                    android:src="@drawable/order_icon" />
 
                 <TextView
                     android:id="@+id/lastLabel"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
-                    android:text="last"
+                    android:text="Order Details"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
