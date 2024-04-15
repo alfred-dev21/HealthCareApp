@@ -18,8 +18,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardLabTest"
-            android:layout_width="1sp"
-            android:layout_height="1sp"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_column="0"
@@ -40,7 +40,7 @@
                     android:layout_width="100sp"
                     android:layout_height="100sp"
                     android:layout_marginHorizontal="35sp"
-                    android:layout_marginVertical="10sp"
+                    android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
                     android:src="@drawable/lab_test" />
 
@@ -49,7 +49,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40sp"
-                    android:layout_marginBottom="40sp"
                     android:text="Lab Test"
                     android:textColor="@color/black"
                     android:textSize="20sp"
@@ -60,7 +59,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardLab"
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
+            android:layout_height="100sp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="0"
@@ -80,8 +79,8 @@
                     android:id="@+id/buyImage"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginVertical="30sp"
+                    android:layout_marginHorizontal="35sp"
+                    android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
                     android:src="@drawable/lab_test" />
 
@@ -90,10 +89,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="20sp"
-                    android:layout_marginBottom="40sp"
-                    android:text="Buy med"
+                    android:text="Buy medicine"
                     android:textColor="@color/black"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -101,7 +99,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardCheck"
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
+            android:layout_height="100sp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_column="1"
@@ -121,20 +119,19 @@
                     android:id="@+id/checkImage"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginVertical="30sp"
+                    android:layout_marginHorizontal="25sp"
+                    android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/lab_test" />
+                    android:src="@drawable/buy_medication" />
 
                 <TextView
                     android:id="@+id/checkLabel"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginBottom="40sp"
-                    android:text="check"
+                    android:text="Buy Medicine"
                     android:textColor="@color/black"
-                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -142,7 +139,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/carda"
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
+            android:layout_height="100sp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="1"
@@ -162,20 +159,19 @@
                     android:id="@+id/aImage"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginVertical="30sp"
+                    android:layout_marginHorizontal="25sp"
+                    android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
                     android:src="@drawable/lab_test" />
 
                 <TextView
                     android:id="@+id/aLabel"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginBottom="40sp"
-                    android:text="search"
+                    android:textAlignment="center"
+                    android:text="Search"
                     android:textColor="@color/black"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -183,7 +179,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardb"
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
+            android:layout_height="100dp"
             android:layout_row="2"
             android:layout_rowWeight="1"
             android:layout_column="0"
@@ -203,20 +199,19 @@
                     android:id="@+id/bImage"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginVertical="30sp"
+                    android:layout_marginHorizontal="35sp"
+                    android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
                     android:src="@drawable/lab_test" />
 
                 <TextView
                     android:id="@+id/bookLabel"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginBottom="40sp"
-                    android:text="book"
+                    android:textAlignment="center"
+                    android:text="book appointment"
                     android:textColor="@color/black"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -244,20 +239,19 @@
                     android:id="@+id/lastImage"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginVertical="30sp"
+                    android:layout_marginHorizontal="25sp"
+                    android:layout_marginVertical="20sp"
                     android:scaleType="fitXY"
                     android:src="@drawable/lab_test" />
 
                 <TextView
                     android:id="@+id/lastLabel"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="20sp"
-                    android:layout_marginBottom="40sp"
+                    android:textAlignment="center"
                     android:text="last"
                     android:textColor="@color/black"
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
