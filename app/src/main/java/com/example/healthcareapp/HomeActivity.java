@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -88,6 +89,10 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                         .beginTransaction()
                         .replace(R.id.fragment_container, new About())
                         .commit();
+                break;
+            case R.id.logout_menuItem:
+                Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
+                startActivity(intent);
                 break;
             default:
                 return false;
